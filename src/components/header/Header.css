@@ -1,0 +1,21 @@
+.hero-text{
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 700px;
+    color: rgb(2,0,36);
+color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,85,0.8855917366946778) 35%, rgba(0,212,255,1) 100%);
+}
+.hero-text p{
+    font-size: 20px;
+    font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+    .hero-image {
+      min-height: 400px;
+    }
+  }
